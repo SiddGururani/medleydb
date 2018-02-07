@@ -58,6 +58,7 @@ TRACK_LIST_V1 = read_tracklist('tracklist_v1.txt')
 TRACK_LIST_V2 = read_tracklist('tracklist_v2.txt')
 TRACK_LIST_EXTRA = read_tracklist('tracklist_extra.txt')
 TRACK_LIST_BACH10 = read_tracklist('tracklist_bach10.txt')
+TRACK_LIST_MIXSECRETS = read_tracklist('tracklist_mixsecrets.txt')
 
 with open(path.join(path.dirname(__file__), 'resources',
                     'taxonomy.yaml'), 'r') as fhandle:
